@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap");
+@import url(//db.onlinewebfonts.com/c/aae462773966100890bdfe4a8188cc0a?family=Marker+Felt);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+}
+
+h1 {
+  font-family: marker felt;
+  font-size: 5em;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: comic neue;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: comic neue;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: comic neue;
+  font-size: 1em;
+  color: white;
+}
+
+.pages {
+  background-size: 150vw;
+  padding: 10vw;
+  display: grid;
+  row-gap: 20px;
+  background-image: url(../css/images/andrey-haimin-q2Fyzn-KJOQ-unsplash\ \(1\).jpg);
+}
+
+
+
+#page1 {
+  background-color: burlywood;
+  border: rgb(170, 141, 104) 10px dashed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  align-items: center;
+}
+
+#page2 {
+  background-color: burlywood;
+  border: rgb(170, 141, 104) 10px dashed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#page3 {
+  background-color: burlywood;
+  border: rgb(170, 141, 104) 10px dashed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#page4 {
+  background-color: burlywood;
+  border: rgb(170, 141, 104) 10px dashed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#page5 {
+  background-color: burlywood;
+  border: rgb(170, 141, 104) 10px dashed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  width: 30vw;
+  height: max-content;
+}
+
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  float: left;
+}
+
+#pause img {
+  cursor: pointer;
+  width: 10vw;
+}
+
+#play img {
+  cursor: pointer;
+  width: 10vw;
+}
+
+header {
+  height: max-content;
+  width: 100%;
+  background-color: burlywood;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
